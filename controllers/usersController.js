@@ -8,7 +8,7 @@ module.exports = {
         const users = await User.find();
         res.status(200).json({
             success: true,
-            message: "salut les users",
+            message: "salut les utilisateurs",
             data: users
         })
     },
